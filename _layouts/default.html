@@ -37,13 +37,13 @@
 			<section class="hero">
 				<div class="text-container">
 					{% if page.hero %}
-						<h2>{{ page.hero }}</h2>
+						<h2 class="editable">{{ page.hero }}</h2>
 					{% elsif page.name %}
-						<h2>{{ page.name }}</h2>
+						<h2 class="editable">{{ page.name }}</h2>
 					{% endif %}
 
 					{% if page.subtitle %}
-						<p>{{ page.subtitle }}</p>
+						<p class="editable">{{ page.subtitle }}</p>
 					{% endif %}
 				</div>
 			</section>
